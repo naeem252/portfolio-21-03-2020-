@@ -1,6 +1,6 @@
 .main-container{
     /* height: auto; */
-    max-height: 1282px;
+    min-height: 754px;
     max-width: 1200px;
     top: 77%;
     margin-bottom: 64px;
