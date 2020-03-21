@@ -1,0 +1,67 @@
+.main-container{
+    top: 62%;
+    margin-bottom: 55px;
+}
+.contact-content{
+
+}
+.contact-heading{
+    margin-top: 19px;
+}
+.map{
+    width: 292px;
+    height: 225px;
+}
+.map-sub-text{
+    text-transform: capitalize;
+    font-size: 78%;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 20px;
+}
+.contact-address{
+    font-size: 80%;
+    margin-bottom: 29px;
+}
+
+ul.contact-address {}
+.contact-address-item{
+    margin-bottom: 7px;
+}
+.contact-form{}
+label{
+    display: block;
+    margin-bottom: 6px;
+}
+input{
+    width: 100%;
+    border-radius: 15px;
+    padding: 3px 8px;
+    margin-bottom: 17px;
+    border: none;
+    background: #44444447;
+    outline: none;
+}
+
+input#name {}
+textarea{
+    border-radius: 15px;
+    background: #cbcbcb;
+    outline: none;
+    padding: 10px 5px;
+}
+.submit-btn{
+    width: fit-content;
+    font-size: 90%;
+    margin-top: 14px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background: #444;
+    /* background-color: white; */
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer{
+    bottom: -12%;
+}

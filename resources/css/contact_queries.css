@@ -1,0 +1,342 @@
+@media only screen and (max-width: 1326px ) {
+    .main-container{
+        top: 63%;
+    }
+    .top-name{
+
+        z-index: 100;
+
+        /* margin-left: 13rem; */
+
+        margin-left: 0;
+
+        top: 9%;
+
+        left: 40%;
+
+    }
+    footer{
+
+        bottom: -20%;
+
+    }
+}
+@media only screen and (max-width: 992px ) {
+
+    .main-container{
+        width: 79%;
+        height: 550px;
+        top: 18%;
+        left: 10%;
+        transform: translate(0%,-5%);
+        border-radius: 0 51px 0 51px;
+    }
+    .header{
+        border-radius: 0 51px 0 0;
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    .main-nav{
+        margin-left: -86px;
+    }
+    .profile-img-box{
+        border: 1px solid #55555536;
+        width: 122px;
+        background: #fff;
+        height: 122px;
+        position: absolute;
+        left: 6%;
+        bottom: 27%;
+    }
+    .paragraph{
+        display: block;
+    }
+    .top-name{
+
+        z-index: 100;
+
+        /* margin-left: 13rem; */
+
+        margin-left: 0;
+
+        top: 7%;
+
+        left: 30%;
+
+    }
+    .name{
+        font-size: 144%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .title{
+        display: inline-block;
+        font-size: 54%;
+        margin-left: 7px;
+        margin-top: 5px;
+    }
+    /*personal information*/
+    footer{
+        position: absolute;
+        bottom: -18%;
+        right: 22%;
+    }
+    .personal-info{
+
+        text-transform: uppercase;
+
+        color: #1570bb;
+
+        margin-bottom: 15px;
+    }
+    .personal-info::before{
+        content: '';
+        display: inline-block;
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background: #55555545;
+        margin-right: 10px;
+        margin-bottom: 3px;
+    }
+    .personal-info-ul{
+        margin-bottom: 23px;
+    }
+    .personal-info-li{
+        text-transform: capitalize;
+        margin-bottom: 6px;
+        font-size: 79%;
+        font-weight: normal;
+    }
+    .personal-address{
+        width: 122px;
+        background: #d4d4d4;
+        display: inline-block;
+        padding: 3px;
+        margin-right: 12px;
+        color: #555;
+    }
+    .personal-text{}
+
+    .social-box{
+        padding: 4px 7%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .main-container{
+        min-width: 79%;
+        height: 547px;
+        top: 18%;
+        left: 10%;
+        transform: translate(0%,-5%);
+        border-radius: 0 51px 0 51px;
+    }
+    .header{
+        border-radius: 0 51px 0 0;
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    .main-nav{
+        margin-left: -13px;
+    }
+    .profile-img-box{
+        border: 1px solid #55555536;
+        width: 122px;
+        background: #fff;
+        height: 122px;
+        position: absolute;
+        left: 6%;
+        bottom: 27%;
+    }
+    .paragraph{
+        display: block;
+    }
+    .top-name{
+
+        z-index: 100;
+
+        /* margin-left: 13rem; */
+
+        margin-left: 0;
+
+        top: 6%;
+
+        left: 33%;
+
+    }
+    .name{
+        font-size: 144%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .title{
+        display: inline-block;
+        font-size: 54%;
+        margin-left: 7px;
+        margin-top: 5px;
+    }
+    /*personal information*/
+    footer{
+        position: absolute;
+        bottom: -18%;
+        right: 11%;
+    }
+    .personal-info{
+
+        text-transform: uppercase;
+
+        color: #1570bb;
+
+        margin-bottom: 15px;
+    }
+    .personal-info::before{
+        content: '';
+        display: inline-block;
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background: #55555545;
+        margin-right: 10px;
+        margin-bottom: 3px;
+    }
+    .personal-info-ul{
+        margin-bottom: 23px;
+    }
+    .personal-info-li{
+        text-transform: capitalize;
+        margin-bottom: 6px;
+        font-size: 79%;
+        font-weight: normal;
+    }
+    .personal-address{
+        width: 122px;
+        background: #d4d4d4;
+        display: inline-block;
+        padding: 3px;
+        margin-right: 12px;
+        color: #555;
+    }
+    .personal-text{}
+
+    .social-box{
+        padding: 4px 7%;
+    }
+    .map{
+        margin-left: -14px;
+    }
+    textarea{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .main-container{
+        min-width: 79%;
+        min-height: 1148px;
+        top: 19%;
+        left: 10%;
+        transform: translate(0%,-5%);
+        border-radius: 0;
+        margin-bottom: 70px;
+    }
+    .header{
+        border-radius: 0;
+        padding-top: 77px;
+        margin-bottom: 120px;
+    }
+    .profile-img-box{
+        border: 1px solid #55555536;
+        width: 122px;
+        background: #fff;
+        height: 122px;
+        position: absolute;
+        left: 32%;
+        bottom: 58%;
+    }
+    .paragraph{
+        display: none;
+    }
+    .top-name{
+
+        z-index: 100;
+
+        /* margin-left: 13rem; */
+
+        margin-left: 0;
+
+        top: 43%;
+
+        left: 25%;
+
+    }
+    .name{
+        font-size: 170%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .title{
+        display: block;
+        font-size: 54%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    /*personal information*/
+    footer{
+        position: absolute;
+        bottom: -117%;
+        right: 14%;
+    }
+    .personal-info{
+
+        text-transform: uppercase;
+
+        color: #1570bb;
+
+        margin-bottom: 15px;
+    }
+    .personal-info::before{
+        content: '';
+        display: inline-block;
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background: #55555545;
+        margin-right: 10px;
+        margin-bottom: 3px;
+    }
+    .personal-info-ul{
+        margin-bottom: 23px;
+    }
+    .personal-info-li{
+        text-transform: capitalize;
+        margin-bottom: 6px;
+        font-size: 79%;
+        font-weight: normal;
+    }
+    .personal-address{
+        width: 122px;
+        background: #d4d4d4;
+        display: inline-block;
+        padding: 3px;
+        margin-right: 12px;
+        color: #555;
+    }
+    .personal-text{}
+
+    .social-box{
+        padding: 4px 7%;
+    }
+    .category-img-box{
+
+        height: 115px;
+    }
+
+
+
+
+
+}

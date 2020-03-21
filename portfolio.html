@@ -2,9 +2,216 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/7.1%20Grid.css">
+    <link rel="stylesheet" href="vendors/css/slick.css">
+    <link rel="stylesheet" href="vendors/css/slick-theme.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+
+    <link rel="stylesheet" href="resources/css/portfolio.css">
+    <link rel="stylesheet" href="resources/css/portfolio_queries.css">
+    <title>Naeem Hasan</title>
 </head>
 <body>
+<div class="top-name">
+    <h1 class="name">Naeem Hasan <span class="title">Web Designer & developer</span></h1>
+</div>
+<div class="main-container">
 
+    <div class="main-text-container">
+        <header class="header">
+            <div class="profile-img-box">
+                <img src="resources/img/naeemhasan.jpg" alt="naeem hasan" class="profile-img">
+            </div>
+            <nav class="navigation">
+                <ul class="main-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <i><ion-icon name="home"></ion-icon></i>
+                            <span class="nav-text">home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="resume.html" class="nav-link">
+                            <i><ion-icon name="paper"></ion-icon></i>
+                            <span class="nav-text">resume</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">
+                            <i><ion-icon name="images"></ion-icon></i>
+                            <span class="nav-text">portfolio</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            <i><ion-icon name="mail"></ion-icon></i>
+                            <span class="nav-text">contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="row">
+            <form action="post" class="category-form">
+                <label for="category">Category</label>
+                <div class="category">
+
+                    <select name="category" id="category" class="select-category">
+
+                        <option value="*">All</option>
+                        <option value=".technology">technology</option>
+                        <option value=".phone">phone</option>
+                        <option value=".tv">TV</option>
+                        <option value=".portfolio">portfolio</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+
+            <div class="grid">
+                <div class="row">
+                    <div class="col span-1-of-4 element-item technology" data-category="technology">
+                        <div class="category-img-box">
+                            <img class="category-img" src="resources/img/category-img-1.jpg" alt="">
+                            <span class="more-text">view</span>
+                        </div>
+                        <h3 class="category-title">portfolio title</h3>
+                    </div>
+                    <div class="col span-1-of-4 element-item phone" data-category="phone">
+                        <div class="category-img-box">
+                            <img class="category-img" src="resources/img/category-img-2.jpg" alt="">
+                            <span class="more-text">view</span>
+                        </div>
+                        <h3 class="category-title">portfolio title</h3>
+                    </div>
+                    <div class="col span-1-of-4 element-item tv" data-category="tv">
+                        <div class="category-img-box">
+                            <img class="category-img" src="resources/img/category-img-3.jpg" alt="">
+                            <span class="more-text">view</span>
+                        </div>
+                        <h3 class="category-title">portfolio title</h3>
+                    </div>
+                    <div class="col span-1-of-4 element-item technology" data-category="technology">
+                        <div class="category-img-box">
+                            <img class="category-img" src="resources/img/category-img-4.jpg" alt="">
+                            <span class="more-text">view</span>
+                        </div>
+                        <h3 class="category-title">portfolio title</h3>
+                    </div>
+
+                </div>
+                    <div class="row">
+                        <div class="col span-1-of-4 element-item portfolio" data-category="portfolio">
+                            <div class="category-img-box">
+                                <img class="category-img" src="resources/img/category-img-1.jpg" alt="">
+                                <span class="more-text">view</span>
+                            </div>
+                            <h3 class="category-title">portfolio title</h3>
+                        </div>
+                        <div class="col span-1-of-4 element-item tv" data-category="tv">
+                            <div class="category-img-box">
+                                <img class="category-img" src="resources/img/category-img-2.jpg" alt="">
+                                <span class="more-text">view</span>
+                            </div>
+                            <h3 class="category-title">portfolio title</h3>
+                        </div>
+                        <div class="col span-1-of-4 element-item technology" data-category="technology">
+                            <div class="category-img-box">
+                                <img class="category-img" src="resources/img/category-img-3.jpg" alt="">
+                                <span class="more-text">view</span>
+                            </div>
+                            <h3 class="category-title">portfolio title</h3>
+                        </div>
+                        <div class="col span-1-of-4 element-item portfolio" data-category="portfolio">
+                            <div class="category-img-box">
+                                <img class="category-img" src="resources/img/category-img-4.jpg" alt="">
+                                <span class="more-text">view</span>
+                            </div>
+                            <h3 class="category-title">portfolio title</h3>
+                        </div>
+                    </div>
+
+
+             <div class="row">
+
+                 <div class="col span-1-of-4 element-item portfolio" data-category="portfolio">
+                     <div class="category-img-box">
+                         <img class="category-img" src="resources/img/category-img-1.jpg" alt="">
+                         <span class="more-text">view</span>
+                     </div>
+                     <h3 class="category-title">portfolio title</h3>
+                 </div>
+                 <div class="col span-1-of-4 element-item phone" data-category="phone">
+                     <div class="category-img-box">
+                         <img class="category-img" src="resources/img/category-img-2.jpg" alt="">
+                         <span class="more-text">view</span>
+                     </div>
+                     <h3 class="category-title">portfolio title</h3>
+                 </div>
+                 <div class="col span-1-of-4 element-item technology" data-category="technology">
+                     <div class="category-img-box">
+                         <img class="category-img" src="resources/img/category-img-3.jpg" alt="">
+                         <span class="more-text">view</span>
+                     </div>
+                     <h3 class="category-title">portfolio title</h3>
+                 </div>
+                 <div class="col span-1-of-4 element-item technology" data-category="technology">
+                     <div class="category-img-box">
+                         <img class="category-img" src="resources/img/category-img-4.jpg" alt="">
+                         <span class="more-text">view</span>
+                     </div>
+                     <h3 class="category-title">portfolio title</h3>
+                 </div>
+             </div>
+                </div>
+            </div>
+    </div>
+
+
+
+<footer>
+    <div class="social">
+        <ul class="social-box">
+            <li class="social-item">
+                <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="#" class="social-link">
+                    <ion-icon name="logo-google"></ion-icon>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="https://github.com" target="_blank" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <a href="#" class="download-card">
+                    <span class="download-icon">
+                        <ion-icon name="cloud-download"></ion-icon>
+                    </span>
+            download
+        </a>
+    </div>
+    <p class="copy-right">
+        &copy; 2015 naeem hasan
+    </p>
+</footer>
+<script src="vendors/js/jquery.min.js"></script>
+<script src="vendors/js/slick.min.js"></script>
+<script src="vendors/js/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="resources/js/main.js"></script>
 </body>
 </html>
