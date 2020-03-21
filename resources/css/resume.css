@@ -1,0 +1,168 @@
+.main-container{
+    /* height: auto; */
+    max-height: 1282px;
+    max-width: 1200px;
+    top: 77%;
+    margin-bottom: 64px;
+    padding-bottom: 18px;
+}
+.main-text-container{
+    height: auto;
+}
+.biography{}
+.biography-heading{
+    margin-top: 15px;
+}
+.sub-heading{
+    display: flex;
+    margin: 0;
+    font-size: 71%;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: #555;
+    align-items: center;
+}
+.sub-heading span{
+    font-size: 150%;
+    display: inline-block;
+    /* margin-top: -2px; */
+    margin-right: 7px;
+}
+.biography-para p{
+    margin-top: 10px;
+    font-size: 78%;
+    font-weight: normal;
+    color: #505050;
+    line-height: 140%;
+    margin-bottom: 15px;
+}
+.skills{}
+.skill-heading{
+    margin-top: 15px;
+}
+.skill{
+    margin-bottom: 35px;
+}
+.skill-item{
+    text-transform: capitalize;
+    font-size: 85%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    color: #555;
+}
+.skill-item:not(:last-child){
+    margin-bottom: 10px;
+}
+.skill-icon{
+    font-size: 126%;
+}
+.color{
+    color: #ff9f43;
+}
+.skill-text{
+    /* width: 50%; */
+    display: inline-block;
+}
+.testimonial{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-right: -13px; */
+}
+.testimonial.has-right-margin{
+    margin-right: 10px;
+}
+.testimonial-heading{
+    margin-top: 24px;
+}
+.testi-img-box{
+
+    display: flex;
+    position: relative;
+    margin-right: 16px;
+}
+.testi-img-box-2{
+    width: 50px;
+    height: 50px;
+    background: #5555555e;
+    margin-top: 6px;
+    margin-left: 27px;
+}
+.testi-img{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 5px; */
+    padding: 2px;
+}
+.quote{
+    font-size: 150%;
+    position: absolute;
+    top: -10%;
+    left: -24%;
+    color: #555;
+}
+.testi-text{}
+.testi-para{
+    font-size: 83%;
+    line-height: 130%;
+    font-weight: normal;
+    color: #444;
+}
+.writer{
+    display: block;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #157bca;
+}
+
+
+
+/*footer*/
+/*personal information*/
+footer{
+
+    /* display: none; */
+
+    bottom: -42%;
+}
+.personal-info{
+
+}
+.personal-info::before{
+
+}
+.personal-info-ul{
+
+}
+.personal-info-li{
+
+}
+.personal-address{
+
+}
+.personal-text{}
+.social{
+
+}
+.social-box{
+
+}
+.social-item{
+
+}
+.social-link{
+
+}
+.copy-right{
+
+}
+.download-card:link,
+.download-card:visited{
+
+}
+.download-icon{
+
+
+}
